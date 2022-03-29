@@ -25,8 +25,13 @@
 
 // Write a function that converts hours into seconds.
 
+//  0-23 will be past in as the hour 
 function howManySeconds(hours) {
-	
+ let min = hours * 60;
+ return(sec = min * 60)
+ // //  return("hello edabit.com");
 }
 
 
+
+console.log(howManySeconds(2));
