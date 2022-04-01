@@ -126,7 +126,18 @@
 
 //   var x1 = Math.ceil(Math.LN10);
 //   var x2 = Math.floor(Math.LN2);
-
-
-   console.log( x1, x2);
+//   console.log( x1, x2);
    
+// Todo: I need to understand what it means that first parameter don't change but the second one do. And i mean the value
+// function change(_student, course){
+//  _student = "JavaScript Student";
+//  course.name = "JavaScript";
+//  course.grade = "100";
+// }
+
+// var sampleC = { "name": "HTML", "grade": 90};
+// var sampleStudent = "HTML Student"; 
+
+// change(sampleStudent,sampleC);
+// console.log(sampleStudent, sampleC.name, sampleC.grade);
+
