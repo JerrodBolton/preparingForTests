@@ -57,7 +57,7 @@
 // }
 // console.log(findPerimeter(6, 7)); // This should be 6 
 
-// Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+// 5. Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
 
 // squared(5) ➞ 25
 // squared(9) ➞ 81
@@ -68,7 +68,7 @@
 // }
 
 // console.log(squared(100));
-// There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value
+// 6. There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value
 
 // function remainder(x, y) {
 //  // There is a method that allows you you to divide to parameters
@@ -83,7 +83,7 @@
 // remainder(5, 5)
 // );
 
-// Write a function that takes an integer minutes and converts it to seconds.
+// 7. Write a function that takes an integer minutes and converts it to seconds.
 
 // function convert(minutes) {
 // let min = minutes
@@ -141,3 +141,45 @@
 // change(sampleStudent,sampleC);
 // console.log(sampleStudent, sampleC.name, sampleC.grade);
 
+// 8. You need to create a loop that can be used to accumulate the students' points.
+// Which type of loop should you create?
+
+//  var students = {
+//       "James": 300,
+//       "Bryan": 350,
+//       "Tim": 430,
+//       "Mike": 500,
+//       "Haley": 250,
+//       "Leah": 600,
+//       "Liz": 550,
+//       "Tom": 150,
+// };
+
+// var total = 0; // this is how they started adding the number. 
+// for (let item in students) { // this is a for in loop that is grate for objects
+//       if (students.hasOwnProperty(item))
+//            total += students[item];  //total = total + student[item];
+// }
+      
+
+// console.log(`Total points: ${total}`);
+
+
+// 9. Create a function that returns the given argument, but by using an arrow function.
+
+// An arrow function is constructed like so:
+// create your arrow function below
+// let arrowFunc = (r) => {
+//  return(r);
+// }
+
+// console.log(arrowFunc(4));
+
+
+// For Example
+// arrowFunc(3) ➞ 3
+// arrowFunc("3") ➞ "3"
+// arrowFunc(true) ➞ true
+
+let x = 16 + "Volvo"; // In JavaS
+console.log(typeof(x));
