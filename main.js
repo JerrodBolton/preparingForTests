@@ -181,5 +181,114 @@
 // arrowFunc("3") ➞ "3"
 // arrowFunc(true) ➞ true
 
-let x = 16 + "Volvo"; // In JavaS
-console.log(typeof(x));
+// let x = 16 + "Volvo"; // In JavaS when you do a sting and a number it will treat that Number as a string
+// console.log(typeof(x));
+
+    var student = { name: "John", course: "CS-101" };
+    var students = {
+      first: { name: "John", course: "CS-101" },
+    };
+    var courseName = new String("JavaScript");
+    var studentCount = new Number(34);
+    var openEnrollment = true;
+    // console.log(courseName);
+    // console.log(studentCount);
+
+    //  if (student == students.first){
+    //      console.log("true");
+    //  }
+    // if (courseName === "JavaScript")  console.log("true");
+    // if (studentCount == 34)  console.log("true");
+    // if (undefined )console.log("true");
+    // if (null)  console.log("true");
+    // if (!openEnrollment) console.log("true");
+    // if (student) console.log("true");
+    // if(100000000) console.log("true");
+    // JS String methods
+
+// 1) Javascript String slice()
+//string position starts at index of 0
+let str = "Apple, Banana, Kiwi";
+let part = str.slice(0,4); 
+// takes two numbers, and returns everything starting at first number but not second number
+// splice INCLUDES the first parameter, but not the LAST parameter.
+
+// let st = "Hello, My Name is Doug";
+
+// let pa = st.slice(3,5);
+// console.log(pa.toUpperCase());
+
+
+// -----
+// 2) .indexOf()
+// let text = "Hello welcome to the universe"; // indexOf looks for the first character of the word we are searching for.
+// let result = text.indexOf("welcome");
+// console.log(result);
+
+
+// let str = "I love Cheescake more than cupcakes.";
+// let part = str.indexOf("I") + str.indexOf("love"); // adds index
+// console.log(part);
+// let part = str.slice(5,8).indexOf("more ");
+// console.log(part); // if indexOf never occurs => -1
+
+// 3) .replace()
+// let text = "Visit Microsoft and Microsoft!";
+// let results = text.replace(/Microsoft/g, "W3Schools");
+// console.log(results);
+
+
+// let str = "Hello, so glad you could make it to my birthday party!!";
+// let find = str.replace(" ", " ||").slice(2, 4);
+// console.log(find);
+
+// 4) trim - only removed whitespace from START and END of string
+
+// let str = "Hello,so glad you could make it to my birthday party!!";
+// let results = str.trim();
+// console.log(results);
+
+// 5) match
+// let text = "The rain in SPAIN stays mainly in the plain";
+// let result = text.match(/ain/gi); // regex method 
+// // g = global, i = case insensitive (don't care if its uppercase or lowercase)
+// console.log(result); // what will this return?
+
+// 6) substring
+// let text = "The rain in spain stays mainly in the plain";
+// let result = text.substring();
+// // substring will return characters between numbers. (not including numbers given) 
+// console.log(result);
+
+
+
+
+
+// 7) valueOf
+// let text = "The rain in spain stays mainly in the plain";
+// let result = text.valueOf(); // converts a string object into a string.
+// console.log(result);
+
+
+// 8) startsWith asks if the position is true or false?
+// let text = "The rain in spain stays mainly in the plain";
+// let result = text.startsWith("rain", 4); 
+// console.log(result); // what would this reuturn?
+
+// 9) let text = "Thank you for applying to CodeCrew. Please make sure you start the Prework.    "
+// let part = text.trim().slice(0, 24).replace(" ", "!").substring(1, 4);
+// console.log(part)
+
+//  text = text.slice(0, 24).replace(" ", "!").substring(3, 6);
+// //substring returns the LAST parameter, but not the first paramenter
+
+// console.log(text);
+
+//lastIndexOf
+
+//fromCharCode
+
+// conCat
+
+//charAt
+
